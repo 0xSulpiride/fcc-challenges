@@ -29,7 +29,7 @@ app.get('/:shorturl', (req, res) => {
   var shortlink = req.params.shorturl;
 
   var db = JSON.parse(fs.readFileSync('local-db.json'));
-  if(db[shortlink] && db[shortlink] !== 'count') {
+  if(db[shortlink] && shortlink !== 'count') {
     res.redirect(db[shortlink]);
   }
   else {
