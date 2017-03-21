@@ -1,5 +1,5 @@
 const imageSearch = require('google-images'),
-      client      = new imageSearch('003153763050486721090:wltreipwprg', 'AIzaSyDaUk1rl9K_Xl-5UQuG09jJZmuixS-vUVw'),
+      client      = new imageSearch('CSE_ID', '<CSE_API_KEY>'),
       app         = require('express')(),
       fs          = require('fs'),
       localDb     = 'local-db.json';
