@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <h1>{{title}}</h1>
+      <h4>by {{author}}</h4>
+    </div>
+    <div class="col-md-4">
+      <div class="btn-group-vertical" data-toggle="buttons" style="width:100%;">
+        <label class="btn btn-primary active" style="padding: 15px;">
+          <input class="text-center" type="radio" id="option1" checked> {{optionA}}
+        </label>
+        <label class="btn btn-primary" style="padding: 15px;">
+          <input class="text-center" type="radio" id="option2"> {{optionB}}
+        </label>
+      </div>
+      <button class="btn btn-success btn-lg center-block vote" style="margin: 15px auto;">Vote!</button>
+    </div>
+    <div class="col-md-4">
+      See other polls of {{ author }}
+    </div>
+  </div>
+</div>

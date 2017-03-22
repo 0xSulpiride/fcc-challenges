@@ -1,0 +1,29 @@
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.jumbotron {
+  padding: 60px;
+  color: #EFF2F7;
+  background-color: #009EEB;
+}
+
+.jumbotron .container h1 {
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 80px;
+}
+
+.jumbotron .container p {
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+i {
+  font-size: 30px;
+  color: #FF5216;
+}
+
+.btn-lg {
+  width: 200px;
+}
